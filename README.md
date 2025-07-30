@@ -14,7 +14,11 @@ Step 2: Run srs.exe as admin. Without this step OBS will fail to connect to the 
 Step 3: Use a custom stream link and make the stream key whatever you want 
   Ex) rtmp:// YOUR IP HERE /live
 
-Step 4: Edit this .HTML file with the IP in the server and you are good to go.
+Step 4: Edit this viewer.html file with the IP of the server.
+
+Step 5: Make sure to place the viewer.html file inside the SRS server: Right click on the SRS desktop shortcut -> open file location -> objs -> nginx -> html and paste the viewer.html in this folder. 
+
+Step 6 Access the viewer.html using HTTP. Ex) http:// YOUR IP:PORT/viewer.html
 
 (**_IMPORTENT_**) Step 5: Download [TailScale](https://tailscale.com/download/windows) for Windows (or other OS) if you have multiple subnets
 
