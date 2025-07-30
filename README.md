@@ -16,7 +16,7 @@ Step 3: Use a custom stream link and make the stream key whatever you want
 
 Step 4: Edit this .HTML file with the IP in the server and you are good to go.
 
-(**_IMPORTENT_**)Step 5: Download [TailScale](https://tailscale.com/download/windows) for Windows (or other OS) if you have multiple subnets
+(**_IMPORTENT_**) Step 5: Download [TailScale](https://tailscale.com/download/windows) for Windows (or other OS) if you have multiple subnets
 
 ## Tips
 
