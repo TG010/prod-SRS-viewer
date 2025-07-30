@@ -12,7 +12,7 @@ Step 1: Install the windows release of SRS found here (Scroll down until you see
 Step 2: Run srs.exe as admin. Without this step OBS will fail to connect to the srs server.
 
 Step 3: Use a custom stream link and make the stream key whatever you want 
-  Ex) rtmp:// YOUR IP HERE!!!/live
+  Ex) rtmp:// YOUR IP HERE /live
 
 Step 4: Edit this .HTML file with the IP in the server and you are good to go.
 
@@ -42,7 +42,7 @@ To bypass the use of HTTPS we host the viewer.html on the SRS server itself. In 
 
 Right click on the SRS desktop shortcut -> open file location -> objs -> nginx -> html and paste the viewer.html in this folder. 
 
-To open this folder in the broswer you have to do **http**:// YOUR IP HERE/viewer.html DO NOT FORGET TO USE **HTTP**
+To open this folder in the broswer you have to do **http**:// YOUR IP HERE/viewer.html DO NOT FORGET TO USE **HTTP**. This will work only if you are on the same network/subnet/LAN.
 
 ## OBS integration
 
