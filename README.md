@@ -36,7 +36,7 @@ Step 6 Access the viewer.html using HTTP. Ex) http:// YOUR IP:PORT/viewer.html
 
 ## Local Hosting
 
-To make this solution work you MUST be on the same network or subnet. The solution I am using is [TailScale](https://tailscale.com/) it's free and allows for a mesh network which means any device connected to TailScale network can "talk" to each other. Basically acting as a VPN (Virtual Private Network). So if there are diffrent subnets on your network this will help make sure you can connect to any access point and the viewer will still work
+To make this solution work you MUST be on the same network or subnet. The solution I am using is [TailScale](https://tailscale.com/) it's free and allows for a mesh network which means any device connected to TailScale network can "talk" to each other. Basically acting as a VPN (Virtual Private Network). So if there are diffrent subnets on your network this will help make sure you can connect to any access point and the viewer will still work. Tailscale is optional, but it depends on how your network is step up.
 
 GitHub pages will not work with this solution because it uses HTTPS while SRS uses HTTP. The diffrence is that HTTPS is that it's more secure therefore causes more issues in configuring the stream to work. Security should generally not be an issue because this is run locally.
 
