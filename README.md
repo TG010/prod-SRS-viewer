@@ -20,7 +20,7 @@ Step 5: Make sure to place the viewer.html file inside the SRS server: Right cli
 
 Step 6 Access the viewer.html using HTTP. Ex) http:// YOUR IP:PORT/viewer.html
 
-(**_IMPORTENT_**) Step 5: Download [TailScale](https://tailscale.com/download/windows) for Windows (or other OS) if you have multiple subnets
+(Optional) Step 5: Download [TailScale](https://tailscale.com/download/windows) for Windows (or other OS) if you have multiple subnets
 
 ## Tips
 
